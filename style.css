@@ -1,0 +1,966 @@
+body {
+
+    margin: 0;
+    background-color: #3c406f;
+
+}
+
+/* CSS of the 'index.php' page */
+
+.welcomeSentence {
+
+    font-family: 'Avenir';
+    font-size: 18px;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 125px;
+    width: 250px;
+
+}
+
+.formBackground {
+
+    width: 320px;
+    height: 600px;
+    margin-left: 494px;
+    margin-top: 20px;
+
+}
+
+.formStart {
+
+    position: absolute;
+    border-style: none;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 500px;
+
+}
+
+.formStart .findCity {
+
+    border-radius: 5px;
+    padding: 12px;
+    width: 200px;
+    margin-top: -180px;
+    margin-left: 40px;
+    font-size: 17px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Avenir';
+    cursor: pointer;
+    position: absolute;
+
+}
+
+.formStart .validationButton {
+
+    padding: 8px;
+    width: 100px;
+    margin-left: 160px;
+    margin-top: -90px;
+    font-family: 'Avenir';
+    font-size: 13px;
+    border-radius: 10px;
+    position: absolute;
+    color: #ffffff;
+    background-color: #3c406f;
+
+}
+
+.formStart .validationButton:hover {
+
+    opacity: 0.8;
+
+}
+
+.logo {
+
+    width: 165px;
+    height: 165px;
+    margin-top: -39px;
+    margin-left: 23px;
+    position: absolute;
+
+}
+
+/* Menu CSS */
+
+nav.header {
+
+    background: #1f233a;
+
+}
+
+nav.header ul.menu {
+
+    list-style: none;
+    margin-top: 0;
+
+}
+
+nav.header ul.menu li {
+
+    display: inline-block;
+    position: relative;
+    margin-left: 85%;
+
+}
+
+nav.header ul.menu li a {
+
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Avenir';
+    display: inline-block;
+    padding: 30%;
+    text-transform: uppercase;
+
+}
+
+nav.header ul.menu li a:hover {
+
+    color: #cb2f40;
+
+}
+
+/* CSS of the 'currentWeather.php'*/
+/* CSS of the form that is on the page 'currentWeather.php'*/
+
+.formLocation {
+
+    border-style: none;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 180px;
+
+}
+
+.enterLocation {
+
+    padding: 12px;
+    width: 200px;
+    font-size: 13px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: 'Avenir';
+    cursor: pointer;
+
+}
+
+.enterButton {
+
+    padding: 8px;
+    margin-left: 7px;
+    font-family: 'Avenir';
+    font-size: 13px;
+    border-radius: 10px;
+
+}
+
+.enterButton:hover {
+
+    color: #ffffff;
+    background-color: #3c406f;
+
+}
+
+.container {
+
+    width: 1100px;
+    height: 728px;
+    margin: auto;
+    margin-top: 200px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.whiteBackground {
+
+    background-color: #f6f9fa;
+    width: 1100px;
+    height: 200px;
+    bottom: 70px;
+    position: absolute;
+    border-radius: 10px;
+
+}
+
+/*Design according to the temperature*/
+
+.snowDesign {
+
+    background-image: url("./images/snow.svg");
+    width: 1400px;
+    height: 611px;
+
+}
+
+.rainDesign {
+
+    background-image: url("./images/rain.svg");
+    width: 1400px;
+    height: 686px;
+
+}
+
+.sunDesign {
+
+    background-image: url("./images/sun.svg");
+    width: 1400px;
+    height: 728px;
+
+}
+
+.sunCloudsDesign {
+
+    background-image: url("./images/sunWithClouds.svg");
+    width: 1400px;
+    height: 685px;
+
+}
+
+.stormDesign {
+
+    background-image: url("./images/storms.svg");
+    width: 1400px;
+    height: 597px;
+
+}
+
+.cloudsDesign {
+
+    background-image: url("./images/clouds.svg");
+    width: 1400px;
+    height: 604px;
+    margin-left: -1px;
+    
+}
+
+.nightDesign {
+
+    background-image: url("./images/night.svg");
+    width: 1400px;
+    height: 920px;
+    margin-top: -52px;
+
+}
+
+.nightCloudsDesign {
+
+    background-image: url("./images/nightClouds.svg");
+    width: 1400px;
+    height: 940px;
+    margin-left: -10px;
+
+}
+
+.prevailingNightCLouds {
+
+    background-image: url("./images/prevailingCloudsNight.svg");
+    width: 1400px;
+    height: 604px;
+
+}
+
+.nightSnow {
+
+    background-image: url("./images/nightSnow.svg");
+    width: 1400px;
+    height: 600px;
+
+}
+
+.nightCLoudsRain {
+
+    background-image: url("./images/prevailingCloudsMoon.svg");
+    width: 1400px;
+    height: 967px;
+    margin-left: -5px;
+    margin-top: -260px;
+
+}
+
+.prevailingCloudsDesign {
+
+    background-image: url("./images/prevailingClouds.svg");
+    width: 1400px;
+    height: 592px;
+
+}
+
+.prevailingCloudsRainDesign {
+
+    background-image: url("./images/prevailingCloudsRain.svg");
+    height: 890px;
+    width: 1400px;
+
+}
+/*Icons for the next hours according to the temperature*/
+
+.img {
+
+    width: 50px;
+    height: 50px;
+    margin-left: -65px;
+    margin-top: 65px;
+    position: absolute;
+
+}
+
+.imgPrevisions img {
+
+    width: 80px;
+    margin-left: 60px;
+    margin-top: 25px;
+
+}
+
+.temperature {
+
+    position: absolute;
+    font-family: 'Avenir';
+    font-size: 100px;
+    margin-left: 35px;
+    width: 1200px;
+    bottom: 490px;
+    color: #ffffff;
+
+}
+
+.climat {
+
+    font-family: 'Avenir';
+    margin-top: -190px;
+    left: 115px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 24px;
+
+}
+
+.city {
+
+    font-family: 'Avenir';
+    font-size: 57px;
+    margin-top: -180px;
+    color: #ffffff;
+    position: absolute;
+
+}
+
+.humidity {
+
+    font-size: 14px;
+    height: 20px;
+    margin-top: -40px;
+    margin-left: 28px;
+    position: absolute;
+
+}
+
+.feeling {
+
+    font-size: 14px;
+    color: #ffffff;
+    height: 20px;
+    margin-top: -20px;
+    margin-left: 110px;
+
+}
+
+.iconimgHum {
+
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+
+}
+
+.date {
+
+    color: #6b8089;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family: 'Avenir';
+
+}
+
+.tempMin {
+
+    color: #ffffff;
+    font-family: 'Avenir';
+    font-size: 20px;
+    margin-top: -230px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 870px;
+
+}
+
+.tempMax {
+
+    color: #ffffff;
+    font-family: 'Avenir';
+    font-size: 20px;
+    margin-top: -230px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 960px;
+
+}
+
+.hour1 {
+
+    background-color: #ffffff;
+    width: 220px;
+    height: 198px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+.hour2 {
+
+    background-color: #f6f9fa;
+    width: 220px;
+    border-radius: 10px;
+    height: 198px;
+    margin-left: -3px;
+    display: inline-block;
+    border: 1px solid #e9f0f0;
+
+}
+
+.hour3 {
+
+    background-color: #f6f9fa;
+    border-radius: 10px;
+    width: 220px;
+    height: 198px;
+    margin-left: -4px;
+    display: inline-block;
+    border: 1px solid #e9f0f0;
+
+}
+
+.hour4 {
+
+    background-color: #f6f9fa;
+    width: 220px;
+    height: 198px;
+    border-radius: 10px;
+    position: absolute;
+    display: inline-block;
+    border: 1px solid #e9f0f0;
+
+}
+
+.hour5 {
+
+    background-color: #f6f9fa;
+    width: 220px;
+    height: 198px;
+    border-radius: 10px;
+    margin-left: 220px;
+    position: absolute;
+    display: inline-block;
+    border: 1px solid #e9f0f0;
+
+}
+
+.hoursTemps {
+
+    margin-left: -60px;
+    margin-top: 125px;
+    position: absolute;
+    font-size: 45px;
+    color: #6b8089;
+    display: inline-block;
+    font-family: 'Avenir';
+
+}
+
+.buttonPrevision {
+
+    width: 200px;
+    height: 40px;
+    top: 1000px;
+    left: 959px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    padding-left: 32px;
+    padding-top: 16px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Avenir';
+    color: #3c406f;
+
+}
+
+.buttonPrevision:hover {
+
+    box-shadow: -25px 20px 13px rgba(47, 48, 93, 0.3);
+    background-color: #1f233a;
+    color: #ffffff;
+
+}
+
+/*CSS of 'the previsions.php' */
+.weatherpurpleBackground {
+
+    background-color: #1f233a;
+    width: 650px;
+    height: 590px;
+    margin: 10px auto;
+    border-radius: 10px;
+
+}
+
+.cityPrevisions {
+
+    margin-left: 590px;
+    font-family: 'Avenir';
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+
+}
+
+
+.datePrevisions {
+
+    color: #ffffff;
+    font-family: 'Avenir';
+    font-size: 25px;
+    margin-left: 245px;
+    margin-top: 45px;
+    position: absolute;
+
+}
+
+.minPrevisions {
+
+    margin-left: 500px;
+    margin-top: 45px;
+    position: absolute;
+    font-size: 45px;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Avenir';
+
+}
+
+.maxPrevisions {
+    
+    margin-left: 550px;
+    margin-top: 45px;
+    position: absolute;
+    font-size: 45px;
+    font-size: 25px;
+    color: #ffffff;
+    font-family: 'Avenir';
+
+}
+
+.buttonActualWeather {
+
+    width: 190px;
+    height: 40px;
+    top: 820px;
+    left: 755px;
+    padding-left: 50px;
+    padding-top: 16px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Avenir';
+    color: #3c406f;
+    text-decoration: none;
+
+}
+
+.buttonActualWeather:hover {
+
+    box-shadow: -25px 20px 13px rgba(47, 48, 93, 0.3);
+    background-color: #1f233a;
+    color: #ffffff;
+
+}
+
+/*Player*/
+
+.player {
+
+    position: absolute;
+    background: #f7fafb;
+    width: 400px;
+    height: 100px;
+    margin-left: 785px;
+    top: 120px;
+    border-radius: 10px;
+    box-shadow: -25px 20px 13px rgba(47, 48, 93, 0.3);
+
+}
+
+.player .timeline {
+
+    height: 100px;
+    margin-left: 200px;
+}
+
+.player .current_time {
+
+    font-family: 'Avenir';
+    color: #6a7f89;
+    margin-top: 55px;
+    margin-left: -70px;
+    display: inline-block;
+}
+
+.player .duration {
+
+    font-family: 'Avenir';
+    color: #6a7f89;
+    margin-top: 20px;
+    margin-left: 150px;
+    display: inline-block;
+
+}
+
+.player .timeline .progressBarAudio {
+
+    margin-top: 3px;
+    margin-left: -90px;
+    width: 270px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #d4aee2;
+
+}
+
+.player .timeline .progressBarValue {
+
+    margin-top: 5px;
+    width: 0%;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #feecf1;
+
+}
+
+#toggle_play {
+
+    margin-top: -85px;
+    position: absolute;
+    margin-left: 220px;
+    color: #6a7f89;
+
+}
+
+.pause {
+
+    display: none;
+
+}
+
+.player #btn_vol_up {
+
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 70px;
+    color: #6a7f89;
+
+}
+
+.player #btn_vol_down {
+
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 30px;
+    color: #6a7f89;
+    
+}
+
+.player .diskColor {
+
+    position: absolute;
+    border-radius: 50em;
+    left: 2%;
+    bottom: 35%;
+    width: 100px;
+    height: 100px;
+    background-color: #b0e1dc;
+
+}
+
+.player .diskWhite {
+
+    position: absolute;
+    border-radius: 50em;
+    left: 10%;
+    bottom: 68%;
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+
+}
+
+/*RESPONSIVE*/
+
+@media (min-width: 380px) and (max-width: 960px) {
+
+   /*'INDEX.PHP' RESPONSIVE*/
+    
+    .formBackground{
+
+        margin-left:10px;
+        width: 380px;
+    }
+
+    .formStart{
+
+        margin-left:40px;
+        margin-top:-200px;
+    
+   }
+
+   .welcomeSentence{
+       
+    margin-left:80px;
+    margin-top:100px;
+    
+   }
+
+    /*'CURRENTWEATHER.PHP' RESPONSIVE*/
+
+    .logo {
+
+        margin-top: -44px;
+
+    }
+
+    nav.header {
+
+        width: 400px;
+        height: 60px;
+        border-radius: 10px;
+
+    }
+
+    nav.header ul.menu li a {
+
+        margin-left: -50px;
+        margin-top: 10px;
+
+    }
+
+    .enterLocation {
+
+        width: 200px;
+        margin-top: 80px;
+        margin-left: -170px;
+
+    }
+
+    .container {
+
+        width: 380px;
+        margin-top: 230px;
+        overflow: visible;
+
+    }
+
+    .Design {
+        
+        width: 380px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .whiteBackground {
+
+        width: 380px;
+        border-radius: 10px;
+
+    }
+
+    .hour1 {
+
+        width: 380px;
+        display: block;
+
+    }
+
+    .hour2 {
+
+        width: 380px;
+        display: block;
+        margin-top: 10px;
+
+    }
+
+    .hour3 {
+
+        width: 380px;
+        display: block;
+        margin-top: 10px;
+
+    }
+
+    .hour4 {
+
+        width: 377px;
+        display: block;
+        margin-top: 10px;
+
+    }
+
+    .hour5 {
+
+        width: 378px;
+        margin-left: 1px;
+        display: block;
+        margin-top: 220px;
+
+    }
+
+    .date {
+
+        margin-left: 147px;
+    }
+
+    .temp {
+
+        margin-left: -61px;
+    }
+
+    .tempMin {
+
+        margin-left: 200px;
+        font-size: 18px;
+    }
+
+    .tempMax {
+
+        margin-left: 280px;
+        font-size: 18px;
+        
+    }
+
+    .player {
+
+        margin-left: 10px;
+        margin-top: 50px;
+        width: 380px
+
+    }
+
+    .timeline {
+
+        left: 0;
+
+    }
+
+    .player .timeline .progressBarAudio {
+
+        width: 250px;
+        margin-left: -80px;
+        margin-top: 7px;
+
+    }
+
+    .player .timeline .duration {
+
+        margin-left: 150px;
+    }
+
+    .player #btn_vol_up {
+
+        margin-left: 80px;
+        margin-top: -20px;
+
+    }
+
+    .player #btn_vol_down {
+
+        margin-left: 30px;
+        margin-top: -20px;
+
+    }
+
+    .player #toggle_play {
+
+        margin-left: 230px;
+        margin-top: -78px;
+
+    }
+
+    .diskWhite {
+
+        margin-left: 2px;
+    }
+    
+    .buttonPrevision {
+        display:none;
+
+    }
+
+    /*'PREVISIONS' RESPONSIVE*/
+
+    .weatherpurpleBackground {
+
+        width: 380px;
+        height: 500px;
+        
+    }
+
+    .datePrevisions {
+
+        margin-left:140px;
+        font-size:20px;
+
+    }
+
+    .imgPrevisions {
+
+      margin-left:-40px;
+
+    }
+
+    .minPrevisions{
+    
+        margin-left:290px;
+        margin-top:42px;
+
+    }
+
+
+    .maxPrevisions{
+    
+        margin-left:336px;
+        margin-top:42px;
+
+    }
+
+
+    .buttonActualWeather {
+        
+        display:none;
+    }
+
+    .cityPrevisions {
+
+        margin-left:156px;
+        margin-top:5px;
+
+ 
+    }
+}
